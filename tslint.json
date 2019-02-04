@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "rules": {
+        "no-console": {
+            "severity": "warning"
+        },
+        "semicolon": false,
+        "quotemark": false,
+        "arrow-return-shorthand": [true, "multiline"],
+        "trailing-comma": false,
+        "arrow-parens": false,
+        "class-name": true,
+        "curly": false,
+        "eofline": false,
+        "member-ordering": [
+            true,
+            {
+              "order": [
+                "private-static-field",
+                "private-instance-field",
+                "private-constructor",
+                "public-static-field",
+                "public-instance-field",
+                "public-constructor",
+                "protected-instance-method",
+                "private-instance-method",
+                "public-instance-method"
+              ]
+            }
+          ],
+        "jsx-wrap-multiline": false,
+        "no-string-literal": false
+    },
+    "rulesDirectory": []
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "contexts/*": ["src/contexts/*"],
+      "styles/*": ["src/styles/*"]
+    },
+    "lib": ["es2018", "dom"],
+    "jsx": "react",
+    "sourceMap": true
+  },
+  "include": ["./src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
